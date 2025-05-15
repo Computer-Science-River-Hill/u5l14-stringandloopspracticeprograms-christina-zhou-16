@@ -47,7 +47,7 @@ public class Main {
         } else if (choice == 4) {
             System.out.print("Enter a word: ");
             String word = inputString.nextLine();
-            for (var i = 0; i < word.length(); i ++) {
+            for (int i = 0; i < word.length(); i ++) {
                 System.out.println(word);
             }
         } else if (choice == 5) {
